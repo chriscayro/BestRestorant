@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:layout_margin="10dp"
+    android:elevation="2dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp">
+
+        <ImageView
+            android:id="@+id/food_icon"
+            android:layout_width="90dp"
+            android:layout_height="80dp"
+            android:layout_marginBottom="8dp"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/chicken" />
+
+        <TextView
+            android:id="@+id/food_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/food_icon"
+            android:layout_toLeftOf="@+id/checkbox_selected"
+            android:paddingLeft="8dp"
+            android:text="Sliced fruit cake with\n strawberry dressing"
+            android:textColor="@android:color/black"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/food_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="5dp"
+            android:paddingLeft="5dp"
+            android:text="Ksh. 10000"
+            android:textColor="@color/color_text_red"
+            android:textSize="16dp" />
+
+        <CheckBox
+            android:id="@+id/checkbox_selected"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="16dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="18dp" />
+
+        <TextView
+            android:id="@+id/availability_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Not Available"
+            android:textColor="@color/color_text_green"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="20dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="20dp"/>
+
+        <TextView
+            android:id="@+id/quantity_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/availability_text"
+            android:layout_alignEnd="@+id/checkbox_selected"
+            android:layout_alignRight="@+id/checkbox_selected"
+            android:text="Select Quantity" />
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

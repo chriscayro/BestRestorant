@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:layout_margin="20dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/category_icon"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="true"
+            android:contentDescription="@null"
+            android:src="@drawable/chicken"/>
+
+        <TextView
+            android:id="@+id/category_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:text="Menu Title though it grows long"
+            android:textSize="20dp"
+            android:textColor="@android:color/white"
+            android:background="@color/blue_grey"/>
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

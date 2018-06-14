@@ -1,0 +1,143 @@
+{
+  "project_info": {
+    "project_number": "292167105618",
+    "firebase_url": "https://restaurant-app-8d366.firebaseio.com",
+    "project_id": "restaurant-app-8d366",
+    "storage_bucket": "restaurant-app-8d366.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:292167105618:android:a3de3f20b079ae5b",
+        "android_client_info": {
+          "package_name": "com.mystique.kim.easylifeapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "292167105618-t98tmnc47jjk6gsin177fupj8ac2p7kd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mystique.kim.easylifeapp",
+            "certificate_hash": "9d96f54a3a51af9792997ede002ae72dfeacca4b"
+          }
+        },
+        {
+          "client_id": "292167105618-kie84p8sn3qhis3m4qgndlqadgkhlkq4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDHGDPE7FxWuea5YbRJvHpjFpYb6GkUak"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "292167105618-kie84p8sn3qhis3m4qgndlqadgkhlkq4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:292167105618:android:15ee7dffa0d400a0",
+        "android_client_info": {
+          "package_name": "com.mystique.kim.easyrestaurantapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "292167105618-uque0k4kt3ar0cf6h2q6jr63d1tahl2l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mystique.kim.easyrestaurantapp",
+            "certificate_hash": "9d96f54a3a51af9792997ede002ae72dfeacca4b"
+          }
+        },
+        {
+          "client_id": "292167105618-kie84p8sn3qhis3m4qgndlqadgkhlkq4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDHGDPE7FxWuea5YbRJvHpjFpYb6GkUak"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "292167105618-kie84p8sn3qhis3m4qgndlqadgkhlkq4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:292167105618:android:7d0ad552ae0e6147",
+        "android_client_info": {
+          "package_name": "com.mystique.kim.easyserviceend"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "292167105618-b2ncabeuvki1430ci8tphg3169druho0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mystique.kim.easyserviceend",
+            "certificate_hash": "9d96f54a3a51af9792997ede002ae72dfeacca4b"
+          }
+        },
+        {
+          "client_id": "292167105618-kie84p8sn3qhis3m4qgndlqadgkhlkq4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDHGDPE7FxWuea5YbRJvHpjFpYb6GkUak"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "292167105618-kie84p8sn3qhis3m4qgndlqadgkhlkq4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

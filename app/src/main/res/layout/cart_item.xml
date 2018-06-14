@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="100dp">
+
+        <ImageView
+            android:id="@+id/cart_item_icon"
+            android:layout_width="120dp"
+            android:layout_height="90dp"
+            android:src="@drawable/dessert" />
+
+        <RelativeLayout
+            android:layout_width="180dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_height="match_parent"
+            android:layout_toLeftOf="@+id/endSec"
+            android:layout_toRightOf="@+id/cart_item_icon">
+
+            <TextView
+                android:id="@+id/cart_item_desc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="17dp"
+                android:text="This is the item's description."/>
+
+            <TextView
+                android:id="@+id/cart_item_qty"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="5dp"
+                android:text="Quantity: 1" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/endSec"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/cart_item_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ksh. 1000" />
+
+            <ImageView
+                android:id="@+id/remove_item_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@android:drawable/ic_delete" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>
